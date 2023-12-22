@@ -1,0 +1,28 @@
+
+
+.container.container{
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin: auto;
+
+}
+
+.contenedor-imagen {
+    width: 100%; /* Establece un ancho fijo */
+    height: 350px;    /* Establece una altura fija */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    overflow: hidden; /* Oculta partes de la imagen que desborden */
+    margin-top: 10px; /* Margen superior */
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+.contenedor-imagen img {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho del contenedor */
+    height: 350px; /* Hace que la imagen ocupe toda la altura del contenedor */
+    object-fit: cover; /* Asegura que la imagen cubra todo el espacio sin perder su relación de aspecto */
+}
+
